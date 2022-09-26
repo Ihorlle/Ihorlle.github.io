@@ -1,8 +1,8 @@
-# BEM VINDO(A) AO MEU REPOSITORIO DE PROJETOS:
+# Bem vindo(a) ao meu Repositório de Projetos:
 
 
 
-# WELCOME TO MY PROJECT REPOSITORY:
+# Welcome to my Project Repository:
 
 
 
