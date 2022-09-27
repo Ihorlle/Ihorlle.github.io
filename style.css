@@ -1,0 +1,7 @@
+.imagem {
+	background-image: url(fundo.jpg);
+	/*background-color: turquoise;*/
+	width: 50%;
+	
+	text-align: center;
+}
