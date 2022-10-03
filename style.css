@@ -1,9 +1,13 @@
 .imagem {
-	background-image: url(fundo.jpg);
+	background-image: url(img/fundo.jpg);
 	/*background-color: turquoise;*/
 	width: 100%;
 	height: auto;
 	font-family: verdana;
 	color: white;
 	text-align: center;
+}
+
+.footer {
+	
 }
