@@ -1,0 +1,143 @@
+/* VARIAVEIS DE COR */
+:root {
+  --fundoPreto: #000000;
+  --fundoCinza: #434343;
+  --fundoLaranja: #a55c1b;
+  --fundoBranco: #ecebeb;
+  --fundoAzul: #084177;
+  --fundoCinzaVerde: #687466;
+  --fundoMarrom: #cd8d7b;
+  --fundoLaranjaAmarelo: #fbc490;
+  --fundoCinzaClaro: #c1c1c1;
+  
+  --fonteBranco: #ffffff;
+  --fonteLaranja: #fcb045;
+  --fontePreto: #090000;
+  --fonteVermelho: #fd1d1d;
+  --fonteCinza: #898b8d;
+}
+
+/* INFO GERAIS DE CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  min-width: 100vh;
+  background: linear-gradient(45deg, var(--fundoAzul), var(--fundoCinzaVerde), var(--fundoMarrom), var(--fundoLaranjaAmarelo));
+  background-size: 200% 200%;
+  
+  /*
+  background-color: var(--fundoLaranja);
+  background-image: linear-gradient(315deg, var(--fundoLaranja) 0%, var(--fundoCinza) 74%);
+  */
+
+  font-family: 'Roboto', sans-serif; 
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 200;
+}
+
+/* CABEÇALHO */
+header {
+  background-color: var(--fonteBranco);
+  font-size: 50px;
+  line-height: 55px;
+
+  display: flex;
+  height: 192px;
+  align-items: center;
+  justify-content: center;  
+}
+
+header span {
+  font-weight: 700;
+  color: var(--fonteLaranja);
+}
+
+.logo {
+  width: 20%;
+  padding: 10px;
+}
+
+.menu {
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.menu a {
+  padding: 10px 45px;
+
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  color: var(--fontePreto);
+  cursor: pointer;
+}
+
+.menu a:hover {
+  opacity: 0.8;
+}
+
+.menu a:active {
+  opacity: 0.6;
+}
+
+/* SUB-TITULOS */
+h2 {
+  font-family: 'Emilys Candy', cursive;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--fontePreto);
+  text-align: center;
+  padding: 50px;
+}
+
+h2 span {
+  color: var(--fonteLaranja);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--fonteBranco);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* RODAPE */
+footer {
+  background: var(--fundoCinza);
+  height: 120px;
+  width: 100%; 
+}
+
+h6 {
+  padding: 50px 10px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 100;
+  color: var(--fonteBranco);
+
+}
+
+h6 span {
+  color: var(--fonteLaranja);
+}
+
+h6 .footer {
+  font-size: 12px;
+  line-height: 17px;
+  color: var(--fonteBranco);
+}

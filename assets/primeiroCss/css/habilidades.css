@@ -1,0 +1,74 @@
+
+.principal {
+ 
+}
+
+.titulo-principal {
+  /*
+  border: 1px dotted var(--quarta);
+ */
+ 
+ 
+}
+
+.habilidades {
+  
+  
+}
+
+.cards {
+  
+  
+  gap: 5px;
+  /*
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  */
+}
+
+
+
+.card {
+  height: 100px;
+  width: 100px;
+  
+/*
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  */
+  /*
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #000000aa;
+  background: #ff002b;
+  margin-bottom: 1rem;
+  */
+}
+
+.card2 {
+  height: 100px;
+  width: 100px;
+/*
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+  */
+  /*
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #000000aa;
+  background: #ff002b;
+  margin-bottom: 1rem;
+  */
+}
+
+
+
+
+
+
+
+

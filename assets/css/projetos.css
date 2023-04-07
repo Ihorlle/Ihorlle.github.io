@@ -1,0 +1,70 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+/* IMAGEM COM PENSAMENTO */
+.imagem {
+  align-items: center;
+  border-radius: 30px;
+  height: 200px;
+  width: 400px;
+  margin: 100px;
+}
+
+/* CARDS DOS PROJETOS */
+.projetos {
+  padding: 20px;
+  gap: 30px;
+}
+
+.numero {
+  text-align: center;  
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 700;
+  color: var(--fonteBranco);
+  border-radius: 50% 50%;
+  background: var(--fundoCinza);
+}
+
+.conteudo {
+  text-align: center;
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--fonteBranco);
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.btn-exp-profissional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+}
+
+.btn-demo, .btn-repo {
+  display: block;
+  /* este margin precisa de diplay block para funcionar */
+  margin: 20px auto;
+  height: 40px;
+  min-width: 194px;
+  border: none;
+  border-radius: 5px;
+  background: var(--fundoCinza);
+  color: var(--fonteBranco);
+  cursor: pointer;
+}
+
+.btn-demo:hover, .btn-repo:hover {
+  opacity: 0.8;
+}
+
+.btn-demo:active, .btn-repo:active {
+  opacity: 0.6;
+}

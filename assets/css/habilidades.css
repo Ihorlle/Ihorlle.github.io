@@ -1,0 +1,85 @@
+.principal {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#descricao {
+  padding: 10px 100px;
+  
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  color: var(--fonteBranco);
+  text-align: justify;
+}
+
+/* HARD SKILLS */
+.card-hard {
+  height: 80px;
+  width: 120px;
+  padding: 10px;
+  display: inline-block;
+
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* SOFT SKILLS */
+#btn-soft {
+  display: block;
+  /* este margin precisa de diplay block para funcionar */
+  margin: 20px auto;
+  height: 40px;
+  width: 155px;
+  padding: 8px 8px;
+
+  border: none;
+  border-radius: 5px;
+  background: var(--fundoCinza);
+  color: var(--fonteBranco); 
+  cursor: pointer;
+
+}
+
+#btn-soft:hover {
+  opacity: 0.8;
+}
+
+#btn-soft:active {
+  opacity: 0.6;
+}
+
+
+/* HOBBIES */
+.card-hobbies {
+  height: 100px;
+  width: 120px;
+  padding: 10px;
+  display: inline-block;
+
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+/* IDIOMAS */
+.card-idiomas {
+  height: 80px;
+  width: 120px;
+  padding: 10px;
+  display: inline-block;
+
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+  -webkit-backdrop-filter: blur(15px);
+}

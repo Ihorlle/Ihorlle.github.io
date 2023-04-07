@@ -1,0 +1,59 @@
+#social {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  /* width: 40% da tela */
+  width: 40%;
+  /* se a tela ficar mto pequena usa o min-width */
+  min-width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  /* margin 100px(em cima e em baixo) auto(aos lados */
+  margin: 100px auto; 
+  padding: 20px;
+}
+
+input, textarea {
+  min-width: 320px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  margin-top: 20px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+
+button {
+  display: block;
+  /* este margin precisa de diplay block para funcionar */
+  margin: 20px auto;
+  height: 40px;
+  min-width: 320px;
+  border: none;
+  border-radius: 5px;
+  background: var(--sexta);
+  color: var(--fontePreta); 
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+
+
